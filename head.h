@@ -2,6 +2,7 @@
 typedef struct User_login {
     char name[LENGTH];
     int totalcount;
+    int time;
 }SDataType;
 typedef struct SListNode{
     SDataType*data;
