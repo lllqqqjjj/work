@@ -23,6 +23,7 @@ void test_list()
 
 int main()
 {
+
     PNode head = NULL;
     //test_list();
     //读取文件创建单链表
@@ -44,4 +45,5 @@ int main()
     ListDestory(head);
 
     return 0;
+    
 }
