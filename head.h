@@ -7,6 +7,6 @@ typedef struct User_login {
     int time;
 }SDataType;
 typedef struct SListNode{
-    SDataType*data;
+    SDataType data;
     struct SListNode*_PNext;
 }Node,*PNode; 
